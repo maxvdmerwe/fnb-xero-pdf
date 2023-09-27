@@ -1,5 +1,6 @@
 # fnb-xero-pdf
 
-#Docker run command
+# Docker run command
 
-docker run -v "$(pwd)":/data -e GUID=1000 --pull missing ghcr.io/maxvdmerwe/fnb-xero-pdf:latest
+# cd into dir with pdf statements before running.
+docker run -v "$(pwd)":/data ghcr.io/maxvdmerwe/fnb-xero-pdf:latest
